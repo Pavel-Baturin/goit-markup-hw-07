@@ -50,63 +50,60 @@
                 <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
-                        <button data-modal-close class="modal-close">
-                            <svg class="icon-modal">
+                        <button data-modal-close class="button-close">
+                            <svg class="button-close__icon">
                                 <use href="./images/symbol-defs.svg#icon-close-black"></use>
                             </svg>
                         </button>
-                        <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-                        <form class="form" autocomplete="off">
+                        <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
+                        <form class="modal__form" autocomplete="off">
                             
-                            <label class="form-field">
-                                <span class="form-label">Имя</span>
-                                <input type="text" class="form-input" name="name" placeholder=" " />
-                                <span class="svg">
-                                    <svg class="icon-form">
-                                        <use href="./images/symbol-defs.svg#icon-person-black"></use>
-                                    </svg>
-                                </span>
+                            <label class="modal__field">
+                                <span class="modal__label">Имя</span>
+                                <input type="text" class="modal__input" name="name" placeholder=" " />
+                                <svg class="modal__icon">
+                                    <use href="./images/symbol-defs.svg#icon-person-black"></use>
+                                </svg>
+                                
                             </label>
                                 
-                             <label class="form-field">
-                                <span class="form-label">Телефон</span>
-                                <input type="tel" class="form-input" name="phone-number" placeholder=" " />
-                                <svg class="icon-form">
+                             <label class="modal__field">
+                                <span class="modal__label">Телефон</span>
+                                <input type="tel" class="modal__input" name="phone-number" placeholder=" " />
+                                <svg class="modal__icon">
                                     <use href="./images/symbol-defs.svg#icon-phone-black"></use>
                                 </svg>
                                 
                             </label>
                                 
-                            <label class="form-field">
-                                <span class="form-label">Почта</span>
-                                <input type="email" class="form-input" name="mail" placeholder=" " />
-                                <span class="svg">
-                                    <svg class="icon-form">
-                                        <use href="./images/symbol-defs.svg#icon-email-black"></use>
-                                    </svg>
-                                </span>
+                            <label class="modal__field">
+                                <span class="modal__label">Почта</span>
+                                <input type="email" class="modal__input" name="mail" placeholder=" " />
+                                <svg class="modal__icon">
+                                    <use href="./images/symbol-defs.svg#icon-email-black"></use>
+                                </svg>
                             </label>
                             
-                            <label class="form-comment">
-                                <span class="form-label">Комментарий</span>
-                                <textarea name="comment" class="comment" placeholder="Введите текст"></textarea>
+                            <label class="modal__field modal__field--comment">
+                                <span class="modal__label">Комментарий</span>
+                                <textarea name="comment" class="modal__comment" placeholder="Введите текст"></textarea>
                             </label>
 
-                            <label class="field">
-                                <input class="visually-hidden checkbox" type="checkbox" name="checkbox"/>
-                                <span class="check">
-                                    <svg class="icon-checkbox">
+                            <label class="checkbox">
+                                <input class="checkbox__input visually-hidden" type="checkbox" name="checkbox"/>
+                                <span class="checkbox__wrap">
+                                    <svg class="checkbox__icon">
                                         <use href="./images/symbol-defs.svg#icon-full-check"></use>
                                     </svg>
                                 </span>
-                                <span class="check-label">Соглашаюсь с рассылкой и принимаю
+                                <span class="checkbox__label">Соглашаюсь с рассылкой и принимаю
                                     <span>
-                                        <a href="#" class="check-label link">Условия договора</a>
+                                        <a href="#" class="checkbox__link">Условия договора</a>
                                     </span>
                                 </span>
                             </label>
                             
-                            <button type="submit" class="button-submit">Отправить</button>
+                            <button type="submit" class="modal__button">Отправить</button>
                         </form>
                     </div>
                 </div>
@@ -208,7 +205,7 @@
                             <ul class="card-team__list">
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
@@ -216,7 +213,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
@@ -224,7 +221,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
@@ -232,7 +229,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -250,7 +247,7 @@
                             <ul class="card-team__list">
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
@@ -258,7 +255,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
@@ -266,7 +263,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
@@ -274,7 +271,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -293,7 +290,7 @@
                             <ul class="card-team__list">
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
@@ -301,7 +298,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
@@ -309,7 +306,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
@@ -317,7 +314,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -336,7 +333,7 @@
                             <ul class="card-team__list">
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
@@ -344,7 +341,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
@@ -352,7 +349,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
@@ -360,7 +357,7 @@
                             
                                 <li class="card-team__item">
                                     <a href="#" class="card-team__link">
-                                        <svg class="card-team__icon">
+                                        <svg class="icon">
                                             <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
@@ -380,7 +377,7 @@
                 <ul class="client__list">
                     <li>
                         <a href="#" class="client__link">
-                            <svg class="client__icon">
+                            <svg class="icon client--icon">
                                 <use href="./images/symbol-defs.svg#icon-client1"></use>
                             </svg>
                         </a>
@@ -388,7 +385,7 @@
 
                     <li>
                         <a href="#" class="client__link">
-                            <svg class="client__icon">
+                            <svg class="icon client--icon">
                                 <use href="./images/symbol-defs.svg#icon-client2"></use>
                             </svg>
                         </a>
@@ -396,7 +393,7 @@
 
                     <li>
                         <a href="#" class="client__link">
-                            <svg class="client__icon">
+                            <svg class="icon client--icon">
                                 <use href="./images/symbol-defs.svg#icon-client3"></use>
                             </svg>
                         </a>
@@ -404,7 +401,7 @@
 
                     <li>
                         <a href="#" class="client__link">
-                            <svg class="client__icon">
+                            <svg class="icon client--icon">
                                 <use href="./images/symbol-defs.svg#icon-client4"></use>
                             </svg>
                         </a>
@@ -412,7 +409,7 @@
 
                     <li>
                         <a href="#" class="client__link">
-                            <svg class="client__icon">
+                            <svg class="icon client--icon">
                                 <use href="./images/symbol-defs.svg#icon-client5"></use>
                             </svg>
                         </a>
@@ -420,7 +417,7 @@
 
                     <li>
                         <a href="#" class="client__link">
-                            <svg class="client__icon">
+                            <svg class="icon client--icon">
                                 <use href="./images/symbol-defs.svg#icon-client6"></use>
                             </svg>
                         </a>
@@ -446,35 +443,35 @@
             </div>
             <div class="footer__box">
                 <h2 class="footer__title">присоединяйтесь</h2>
-                <ul class="footerlist">
+                <ul class="footer__list">
                 
-                    <li class="item-link">
-                        <a href="#" class="footer-link">
-                            <svg class="footer-icon">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <svg class="icon">
                                 <use href="./images/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                 
-                    <li class="item-link">
-                        <a href="#" class="footer-link">
-                            <svg class="footer-icon">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <svg class="icon">
                                 <use href="./images/symbol-defs.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                 
-                    <li class="item-link">
-                        <a href="#" class="footer-link">
-                            <svg class="footer-icon">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <svg class="icon">
                                 <use href="./images/symbol-defs.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                 
-                    <li class="item-link">
-                        <a href="#" class="footer-link">
-                            <svg class="footer-icon">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">
+                            <svg class="icon">
                                 <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                             </svg>
                         </a>
@@ -482,14 +479,14 @@
                 </ul>
             </div>
             <div class="form-footer">
-                <h2 class="form-title">Подпишитесь на рассылку</h2>
-                <form class="form-footer-mail" autocomplete="off">
-                    <label class="footer-field">
-                        <input type="email" class="footer-input" name="mail" placeholder="E-mail" />
+                <h2 class="form-footer__title">Подпишитесь на рассылку</h2>
+                <form class="form-footer__form" autocomplete="off">
+                    <label>
+                        <input type="email" class="form-footer__input" name="mail" placeholder="E-mail" />
                     </label>
 
-                    <button type="submit" class="button-footer">Подписаться
-                        <svg class="submit-icon">
+                    <button type="submit" class="form-footer__button">Подписаться
+                        <svg class="form-footer__icon">
                             <use href="./images/symbol-defs.svg#icon-send"></use>
                         </svg>
                     </button>
