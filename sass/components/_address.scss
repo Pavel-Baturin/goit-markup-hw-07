@@ -2,25 +2,25 @@
   margin-top: 20px;
 
   font-style: normal;
-}
 
-.address__paragraph {
-  color: $primary-white-color;
+  &__paragraph {
+    color: $primary-white-color;
 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-}
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+  }
 
-.address__item {
-  margin-top: 9px;
-}
+  &__item {
+    margin-top: 9px;
+  }
 
-.address__link {
-  color: $mail-tel-color;
+  &__link {
+    color: $mail-tel-color;
 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+  }
 }

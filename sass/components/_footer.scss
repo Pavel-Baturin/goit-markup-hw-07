@@ -1,19 +1,20 @@
-.footer__box {
-  margin-left: 70px;
-}
+.footer {
+  &__box {
+    margin-left: 70px;
+  }
 
-.footer__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: $primary-white-color;
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $primary-white-color;
 
-  margin-bottom: 20px;
-}
-
-.footer__list {
-  display: flex;
+    margin-bottom: 20px;
+  }
+  &__list {
+    display: flex;
+  }
 }
 
 .footer__link {
@@ -26,17 +27,17 @@
   background-color: $color-link-footer;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer__link:hover,
-.footer__link:focus {
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .footer__item {
   margin-left: 10px;
-}
 
-.footer__item:first-child {
-  margin-left: 0;
+  &:first-child {
+    margin-left: 0;
+  }
 }

@@ -12,22 +12,35 @@
   transform: translate(-50%, -50%) scale(1);
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal__title {
-  margin-bottom: 12px;
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
 
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  color: $title-text-color;
-}
+  &__title {
+    margin-bottom: 12px;
 
-.modal__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    color: $title-text-color;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__label {
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: $primary-text-color;
+  }
 }
 
 .modal__field {
@@ -36,15 +49,10 @@
   flex-direction: column;
 
   margin-bottom: 10px;
-}
 
-.modal__label {
-  margin-bottom: 4px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: $primary-text-color;
+  &--comment {
+    margin-bottom: 20px;
+  }
 }
 
 .modal__input {
@@ -54,11 +62,11 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal__input:focus {
-  outline: none;
-  border: 1px solid $accent-color;
+  &:focus {
+    outline: none;
+    border: 1px solid $accent-color;
+  }
 }
 
 .modal__icon {
@@ -70,14 +78,10 @@
 
   fill: $title-text-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal__input:focus-within ~ .modal__icon {
-  fill: $accent-color;
-}
-
-.modal__field--comment {
-  margin-bottom: 20px;
+  .modal__input:focus-within ~ & {
+    fill: $accent-color;
+  }
 }
 
 .modal__comment {
@@ -90,9 +94,9 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal__comment:focus {
-  outline: none;
-  border: 1px solid $accent-color;
+  &:focus {
+    outline: none;
+    border: 1px solid $accent-color;
+  }
 }

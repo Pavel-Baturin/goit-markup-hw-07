@@ -1,15 +1,15 @@
 .page-header {
   border-bottom: 1px solid $border-header-color;
-}
 
-.page-header__box {
-  display: flex;
-  align-items: center;
-}
-.page-header__list {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+  &__box {
+    display: flex;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
 }
 
 .page-header__link {
@@ -29,32 +29,32 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.page-header__link:hover,
-.page-header__link:focus {
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .page-header__item {
   margin-left: 50px;
-}
 
-.page-header__item:first-child {
-  margin-left: 0;
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
 .page-header__icon {
   margin-right: 10px;
   fill: currentColor;
-}
 
-.page-header__icon--mail {
-  width: 16px;
-  height: 12px;
-}
+  &--mail {
+    width: 16px;
+    height: 12px;
+  }
 
-.page-header__icon--tel {
-  width: 10px;
-  height: 16px;
+  &--tel {
+    width: 10px;
+    height: 16px;
+  }
 }

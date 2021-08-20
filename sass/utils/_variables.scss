@@ -49,11 +49,11 @@ a {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
 
-.container--footer {
-  display: flex;
-  align-items: baseline;
+  &--footer {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 img {
@@ -67,34 +67,34 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-}
 
-.section--services {
-  padding-top: 0px;
-}
+  &--services {
+    padding-top: 0px;
+  }
 
-.section--team {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+  &--team {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 
-  background-color: $button-background-color;
-}
+    background-color: $button-background-color;
+  }
 
-.section--footer {
-  padding: 60px 0px;
+  &--footer {
+    padding: 60px 0px;
 
-  background-color: $background-color;
-}
+    background-color: $background-color;
+  }
 
-.section__title {
-  margin-bottom: 50px;
+  &__title {
+    margin-bottom: 50px;
 
-  color: $title-text-color;
+    color: $title-text-color;
 
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
 }
 
 .icon {
