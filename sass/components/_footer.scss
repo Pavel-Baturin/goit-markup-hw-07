@@ -1,9 +1,7 @@
 .footer {
-  &__box {
-    margin-left: 70px;
-  }
+  margin-left: 70px;
 
-  &__title {
+  .footer__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -12,7 +10,8 @@
 
     margin-bottom: 20px;
   }
-  &__list {
+
+  .footer__list {
     display: flex;
   }
 }

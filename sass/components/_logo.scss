@@ -6,11 +6,11 @@
   font-size: 26px;
   line-height: 1.19;
 
-  &__text {
+  .logo__text {
     color: $accent-color;
   }
+}
 
-  &--footer {
-    color: $primary-white-color;
-  }
+.logo--footer {
+  color: $primary-white-color;
 }

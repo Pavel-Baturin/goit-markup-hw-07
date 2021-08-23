@@ -3,7 +3,7 @@
 
   font-style: normal;
 
-  &__paragraph {
+  .address__paragraph {
     color: $primary-white-color;
 
     font-weight: 400;
@@ -11,11 +11,11 @@
     line-height: 1.7;
   }
 
-  &__item {
+  .address__item {
     margin-top: 9px;
   }
 
-  &__link {
+  .address__link {
     color: $mail-tel-color;
 
     font-weight: 400;

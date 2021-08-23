@@ -3,18 +3,18 @@
   justify-content: center;
   margin-bottom: 30px;
 
-  &__wrap {
+  .checkbox__wrap {
     margin-right: 8px;
   }
 
-  &__label {
+  .checkbox__label {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     color: $primary-text-color;
   }
 
-  &__link {
+  .checkbox__link {
     text-decoration-line: underline;
     color: $accent-color;
   }
